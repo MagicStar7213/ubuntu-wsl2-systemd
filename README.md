@@ -1,7 +1,5 @@
-# ubuntu-wsl2-systemd-script
-Script to enable systemd support on current Ubuntu WSL2 images from the Windows store. 
-Script is unsupported and will no longer be maintained, but will be up here because it is used by quite some people.
-I am not responsible for broken installations, fights with your roommates and police ringing your door ;-).
+# ubuntu-wsl2-systemd
+This is a fork of DamionGans [ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) for Ubuntu 22.04 LTS as it does not work in this version with the original repo. Hope it helps. Updates made from [Issue #36 of ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script/issues/36)
 
 Instructions from [the snapcraft forum](https://forum.snapcraft.io/t/running-snaps-on-wsl2-insiders-only-for-now/13033) turned into a script. Thanks to [Daniel](https://forum.snapcraft.io/u/daniel) on the Snapcraft forum! 
 
@@ -13,8 +11,8 @@ sudo apt install git
 to do so.
 ### Run the script and commands
 ```sh
-git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
-cd ubuntu-wsl2-systemd-script/
+git clone https://github.com/MagicStar7213/ubuntu-wsl2-systemd.git
+cd ubuntu-wsl2-systemd/
 bash ubuntu-wsl2-systemd-script.sh
 # Enter your password and wait until the script has finished
 ```
