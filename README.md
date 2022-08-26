@@ -1,5 +1,6 @@
 # ubuntu-wsl2-systemd
 This is a fork of DamionGans [ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) for Ubuntu 22.04 LTS as it does not work in this version with the original repo. Hope it helps. Updates made from [Issue #36 of ubuntu-wsl2-systemd-script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script/issues/36)
+There will not be updates as its unsupported too. This was only an update so you could enable systemd in Ubuntu 22.04 LTS
 
 Instructions from [the snapcraft forum](https://forum.snapcraft.io/t/running-snaps-on-wsl2-insiders-only-for-now/13033) turned into a script. Thanks to [Daniel](https://forum.snapcraft.io/u/daniel) on the Snapcraft forum! 
 
